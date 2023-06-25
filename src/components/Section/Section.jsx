@@ -8,6 +8,8 @@ const Section = ({ children, message }) => {
 	</>)
 }
 
-Section.propTypes = {}
+Section.propTypes = {
+	message: PropTypes.string
+}
 
 export default Section
